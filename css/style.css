@@ -178,6 +178,10 @@ h1,h2,h3{
     border-radius: 1rem;
     text-transform: uppercase;
     font-weight: bold;
+    border: none;
+}
+.contact-buttom:hover {
+    cursor: pointer;
 }
 
 @media (max-width: 480px){
@@ -194,6 +198,7 @@ h1,h2,h3{
 }
 
 /* Servicios */
+
 .services1{
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
@@ -246,16 +251,46 @@ h1,h2,h3{
     width: 8rem;
 }
 
-.matusalene {
-    font-size: 3rem;
-    background-color: var(--dos);
-    color: var(--blanco);
-    text-decoration: dashed;
+/* Contacto */
+.formulario {
+    background-color: var(--grisclaro);
+    margin: 0 auto;
+    padding: 3rem;
+    border-radius: 10px;
+    width: min(90rem, 100%);
 }
-.sobremisnalgas {
-    font-size: 32rem;
-    color: var(--dos);
-    background-color: var(--gris);
+.formulario fieldset {
+     border: none;
+}
+.formulario legend {
+    color: var(--uno);
+    font-size: 2rem;
+    font-weight: bold;
+    text-transform: uppercase;
+    margin-bottom: 2rem;
+    text-align: center;
+}
+
+.contenedor-inputs {
+
+}
+.input {
+    margin-bottom: 1rem;
+}
+.input label {
+    color: var(--negro);
+    font-weight: bold;
+    display: block;
+    margin-bottom: .5rem;
+}
+.text-form {
+    width: 100%;
+    border: none;
+    padding: 1.5rem;
+    border-radius: .5rem;
+}
+.sent .contact-buttom {
+    width: 100%;
 }
 
 /* Footer */
